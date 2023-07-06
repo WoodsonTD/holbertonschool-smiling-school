@@ -1,0 +1,22 @@
+header {
+    background-image: url("images/pic_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-white);
+    height: 100vh;
+    background-position: center;
+}
+
+header .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+header .header nav {
+    align-items: space-between;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
